@@ -1,0 +1,151 @@
+Freelancer_ID,Skill,Category,Experience_Level,Location,Projects_Completed,Hourly_Rate,Hours_Per_Week,Client_Rating,Monthly_Income,Job_Demand
+F001,Digital Marketing,Marketing,Expert,Remote,42,600,36,4.6,69500,High
+F002,SEO,Marketing,Intermediate,Bengaluru,20,350,15,4.2,13000,Medium
+F003,UI/UX Design,Design,Expert,Jaipur,64,850,34,5.0,66500,High
+F004,Python,Data & Analytics,Beginner,Pune,13,300,10,4.4,8500,High
+F005,Graphic Design,Design,Beginner,Nanded,4,200,9,4.2,4000,Low
+F006,Video Editing,Video & Media,Beginner,Jaipur,13,200,14,4.0,8500,High
+F007,Content Writing,Writing,Beginner,Nagpur,8,150,20,4.4,7000,Low
+F008,Web Development,Web Development,Intermediate,Jaipur,21,400,26,4.3,34000,High
+F009,UI/UX Design,Design,Intermediate,Mumbai,15,500,34,4.4,38000,Low
+F010,SQL,Data & Analytics,Beginner,Hyderabad,2,250,14,4.4,10000,Medium
+F011,Video Editing,Video & Media,Expert,Nanded,61,650,39,4.5,55500,High
+F012,JavaScript,Web Development,Expert,Chennai,62,750,38,4.6,72000,Medium
+F013,Python,Data & Analytics,Expert,Mumbai,60,1000,35,4.6,106000,High
+F014,Python,Data & Analytics,Beginner,Nagpur,3,250,8,3.9,5000,High
+F015,Web Development,Web Development,Intermediate,Nanded,21,450,32,4.4,43000,Medium
+F016,Excel,Data & Analytics,Beginner,Jaipur,10,150,23,3.6,8000,High
+F017,Python,Data & Analytics,Intermediate,Delhi,25,500,34,4.6,38000,High
+F018,JavaScript,Web Development,Intermediate,Chennai,34,500,18,4.3,20500,High
+F019,Data Analysis,Data & Analytics,Expert,Chennai,58,1100,39,4.9,132500,High
+F020,WordPress,Web Development,Intermediate,Mumbai,14,300,26,4.3,20500,High
+F021,React,Web Development,Expert,Bengaluru,69,1000,26,4.8,88500,Medium
+F022,JavaScript,Web Development,Beginner,Remote,5,300,13,4.3,8000,High
+F023,Graphic Design,Design,Intermediate,Bengaluru,19,350,22,4.8,20500,High
+F024,JavaScript,Web Development,Beginner,Nanded,2,250,18,4.3,13000,Medium
+F025,Excel,Data & Analytics,Expert,Delhi,58,500,37,4.9,37500,Low
+F026,React,Web Development,Beginner,Chennai,13,350,8,3.5,7000,Medium
+F027,Digital Marketing,Marketing,Beginner,Pune,13,200,17,4.0,10000,High
+F028,JavaScript,Web Development,Intermediate,Jaipur,18,500,28,4.8,45500,Low
+F029,Web Development,Web Development,Beginner,Nagpur,9,200,13,4.3,6000,High
+F030,Java,Web Development,Expert,Delhi,57,800,37,4.7,85500,High
+F031,Python,Data & Analytics,Intermediate,Mumbai,33,550,33,4.6,43500,High
+F032,WordPress,Web Development,Beginner,Nagpur,7,200,20,3.7,10000,High
+F033,Web Development,Web Development,Beginner,Jaipur,9,200,24,3.6,11000,High
+F034,Video Editing,Video & Media,Intermediate,Chennai,29,300,17,4.2,11000,Medium
+F035,Data Analysis,Data & Analytics,Beginner,Delhi,8,350,21,3.8,14000,Medium
+F036,Java,Web Development,Beginner,Remote,10,300,20,3.8,13500,High
+F037,Digital Marketing,Marketing,Beginner,Pune,12,200,11,3.9,6000,High
+F038,SEO,Marketing,Expert,Hyderabad,48,600,21,4.4,33500,High
+F039,JavaScript,Web Development,Beginner,Jaipur,10,250,11,4.4,5500,High
+F040,Digital Marketing,Marketing,Expert,Remote,64,750,23,4.9,54000,Medium
+F041,Digital Marketing,Marketing,Beginner,Delhi,11,200,18,4.2,9000,Medium
+F042,Python,Data & Analytics,Expert,Hyderabad,35,1000,27,4.7,81000,High
+F043,Video Editing,Video & Media,Expert,Delhi,37,650,35,4.9,79000,High
+F044,Video Editing,Video & Media,Expert,Remote,67,750,22,4.5,35500,High
+F045,Data Analysis,Data & Analytics,Expert,Delhi,80,950,29,4.5,83500,High
+F046,Python,Data & Analytics,Beginner,Nanded,7,250,9,4.0,4500,High
+F047,WordPress,Web Development,Expert,Pune,51,700,21,4.5,30500,Medium
+F048,Java,Web Development,Beginner,Pune,9,250,8,3.7,5500,Medium
+F049,Graphic Design,Design,Beginner,Remote,9,200,19,4.0,9000,High
+F050,JavaScript,Web Development,Beginner,Remote,8,200,21,4.4,9500,High
+F051,JavaScript,Web Development,Intermediate,Hyderabad,35,350,25,4.0,20000,Low
+F052,JavaScript,Web Development,Intermediate,Nanded,14,450,26,4.7,36000,High
+F053,Video Editing,Video & Media,Intermediate,Nanded,19,450,21,4.1,27500,High
+F054,UI/UX Design,Design,Intermediate,Delhi,27,550,18,4.4,20000,High
+F055,UI/UX Design,Design,Expert,Jaipur,74,950,31,4.8,86000,Medium
+F056,Data Analysis,Data & Analytics,Intermediate,Hyderabad,30,500,34,4.5,37500,High
+F057,SEO,Marketing,Beginner,Pune,2,250,21,4.5,13500,High
+F058,Graphic Design,Design,Expert,Chennai,82,500,28,4.7,46500,Low
+F059,Data Analysis,Data & Analytics,Intermediate,Mumbai,13,600,30,4.5,40000,High
+F060,JavaScript,Web Development,Intermediate,Nanded,36,450,18,4.4,25000,High
+F061,Digital Marketing,Marketing,Expert,Bengaluru,65,700,33,4.6,63500,High
+F062,Web Development,Web Development,Intermediate,Chennai,34,400,22,4.3,27000,Medium
+F063,Video Editing,Video & Media,Expert,Jaipur,69,600,35,4.4,51500,High
+F064,UI/UX Design,Design,Intermediate,Chennai,18,450,32,4.3,30500,Medium
+F065,React,Web Development,Intermediate,Nanded,23,550,21,4.3,31500,High
+F066,Web Development,Web Development,Beginner,Pune,5,250,24,4.2,11500,High
+F067,React,Web Development,Intermediate,Delhi,22,500,34,4.7,54000,High
+F068,Data Analysis,Data & Analytics,Intermediate,Bengaluru,19,700,24,4.3,48500,High
+F069,Python,Data & Analytics,Expert,Chennai,54,1100,29,4.4,92000,High
+F070,Web Development,Web Development,Intermediate,Pune,19,400,19,4.4,21500,Medium
+F071,SQL,Data & Analytics,Beginner,Remote,5,250,11,3.6,6500,High
+F072,JavaScript,Web Development,Beginner,Nanded,11,250,21,4.0,16500,High
+F073,Digital Marketing,Marketing,Expert,Mumbai,48,650,21,4.6,35000,Medium
+F074,Data Analysis,Data & Analytics,Intermediate,Delhi,33,650,24,4.1,35000,High
+F075,Python,Data & Analytics,Beginner,Delhi,7,300,24,3.5,17000,Medium
+F076,SEO,Marketing,Beginner,Pune,3,150,10,3.9,4500,Low
+F077,Excel,Data & Analytics,Expert,Hyderabad,32,550,26,4.8,41000,Low
+F078,SQL,Data & Analytics,Expert,Hyderabad,45,700,35,4.4,76000,High
+F079,SQL,Data & Analytics,Intermediate,Jaipur,29,450,30,4.5,44500,Medium
+F080,Graphic Design,Design,Beginner,Nagpur,5,150,18,3.9,8000,High
+F081,Web Development,Web Development,Beginner,Chennai,4,250,17,3.8,10000,Medium
+F082,WordPress,Web Development,Intermediate,Pune,16,250,33,4.0,24000,Low
+F083,Java,Web Development,Expert,Nanded,41,750,35,4.6,87000,High
+F084,Java,Web Development,Expert,Chennai,80,550,25,4.4,37000,High
+F085,Python,Data & Analytics,Beginner,Hyderabad,9,300,21,3.8,17000,High
+F086,React,Web Development,Expert,Nanded,41,1050,29,4.6,91000,High
+F087,Web Development,Web Development,Beginner,Pune,10,250,17,3.7,12000,High
+F088,Video Editing,Video & Media,Intermediate,Hyderabad,27,400,20,4.1,17000,Medium
+F089,JavaScript,Web Development,Beginner,Nagpur,4,200,15,4.2,9500,High
+F090,Graphic Design,Design,Beginner,Jaipur,11,200,12,3.6,6000,High
+F091,WordPress,Web Development,Beginner,Hyderabad,6,200,11,4.3,4500,High
+F092,Data Analysis,Data & Analytics,Intermediate,Hyderabad,37,550,20,4.0,26000,Medium
+F093,Python,Data & Analytics,Intermediate,Nagpur,27,600,26,4.5,37000,High
+F094,UI/UX Design,Design,Expert,Delhi,54,850,31,4.7,70000,Medium
+F095,Digital Marketing,Marketing,Expert,Pune,59,650,36,4.8,59500,Medium
+F096,Graphic Design,Design,Intermediate,Delhi,15,350,20,4.7,23000,Low
+F097,React,Web Development,Beginner,Nagpur,12,350,11,3.5,8500,High
+F098,Excel,Data & Analytics,Beginner,Pune,3,150,11,4.0,4500,Medium
+F099,Java,Web Development,Intermediate,Bengaluru,31,600,30,4.1,54000,High
+F100,Python,Data & Analytics,Expert,Pune,56,950,26,4.8,67000,Medium
+F101,Java,Web Development,Beginner,Bengaluru,4,250,22,3.6,13000,Medium
+F102,React,Web Development,Beginner,Nanded,11,400,14,3.8,13000,High
+F103,Data Analysis,Data & Analytics,Expert,Pune,47,950,27,4.8,59500,High
+F104,UI/UX Design,Design,Expert,Nanded,53,850,22,4.7,39500,High
+F105,Content Writing,Writing,Beginner,Mumbai,3,150,24,3.6,8000,Low
+F106,Excel,Data & Analytics,Intermediate,Chennai,24,250,33,4.4,22500,Medium
+F107,Content Writing,Writing,Expert,Nanded,74,450,38,4.6,52500,High
+F108,React,Web Development,Intermediate,Remote,24,550,32,4.3,57000,High
+F109,Web Development,Web Development,Expert,Nanded,54,550,28,4.6,39500,Low
+F110,Content Writing,Writing,Intermediate,Jaipur,21,300,17,4.2,11000,Medium
+F111,React,Web Development,Expert,Bengaluru,47,850,29,4.8,55000,High
+F112,SEO,Marketing,Beginner,Mumbai,9,200,9,3.9,4500,Medium
+F113,Web Development,Web Development,Intermediate,Chennai,16,350,30,4.6,21500,Medium
+F114,React,Web Development,Beginner,Bengaluru,9,300,24,4.1,23500,High
+F115,Python,Data & Analytics,Intermediate,Remote,30,450,20,4.3,21000,Low
+F116,Graphic Design,Design,Beginner,Hyderabad,12,150,8,3.6,2000,High
+F117,Data Analysis,Data & Analytics,Beginner,Nagpur,2,350,23,3.7,25000,High
+F118,Python,Data & Analytics,Beginner,Bengaluru,12,300,23,3.5,13000,High
+F119,Python,Data & Analytics,Beginner,Nagpur,6,350,15,3.8,10000,High
+F120,Graphic Design,Design,Intermediate,Bengaluru,37,300,30,4.5,29500,High
+F121,Digital Marketing,Marketing,Intermediate,Hyderabad,35,400,17,4.1,13500,High
+F122,SEO,Marketing,Intermediate,Mumbai,29,300,28,4.7,28500,Medium
+F123,WordPress,Web Development,Intermediate,Jaipur,25,350,22,4.0,19000,Medium
+F124,Graphic Design,Design,Expert,Hyderabad,84,600,23,4.6,45500,Medium
+F125,Python,Data & Analytics,Beginner,Delhi,8,250,20,3.6,12500,High
+F126,SQL,Data & Analytics,Expert,Jaipur,67,850,30,4.8,77500,High
+F127,JavaScript,Web Development,Expert,Pune,68,750,28,4.5,54500,High
+F128,Python,Data & Analytics,Intermediate,Mumbai,20,500,34,4.2,32000,High
+F129,Web Development,Web Development,Intermediate,Bengaluru,29,400,32,4.1,40000,High
+F130,Data Analysis,Data & Analytics,Expert,Jaipur,61,1000,39,4.6,116500,High
+F131,UI/UX Design,Design,Expert,Remote,74,950,25,4.7,59500,Low
+F132,React,Web Development,Intermediate,Nagpur,27,450,22,4.8,34000,High
+F133,Video Editing,Video & Media,Beginner,Mumbai,4,200,15,4.4,9500,Medium
+F134,JavaScript,Web Development,Intermediate,Delhi,26,500,27,4.1,40000,High
+F135,Java,Web Development,Beginner,Bengaluru,3,250,20,3.7,13000,Medium
+F136,JavaScript,Web Development,Intermediate,Hyderabad,32,450,23,4.4,33000,Medium
+F137,Content Writing,Writing,Beginner,Nagpur,6,150,15,4.0,7000,Low
+F138,Java,Web Development,Expert,Hyderabad,68,850,33,5.0,56000,Medium
+F139,JavaScript,Web Development,Beginner,Jaipur,9,200,17,3.8,6500,High
+F140,UI/UX Design,Design,Beginner,Nagpur,2,300,21,3.9,19000,Medium
+F141,Graphic Design,Design,Beginner,Jaipur,11,200,11,4.2,5000,High
+F142,Data Analysis,Data & Analytics,Intermediate,Delhi,26,600,34,4.5,60500,High
+F143,WordPress,Web Development,Intermediate,Nanded,19,300,33,4.7,24000,Medium
+F144,Excel,Data & Analytics,Expert,Remote,35,500,33,4.8,34000,Medium
+F145,Python,Data & Analytics,Intermediate,Delhi,21,600,25,4.2,40500,High
+F146,Web Development,Web Development,Intermediate,Hyderabad,33,400,31,4.8,26500,High
+F147,Digital Marketing,Marketing,Beginner,Bengaluru,5,200,21,4.4,8500,High
+F148,Data Analysis,Data & Analytics,Beginner,Bengaluru,2,350,10,4.0,10000,High
+F149,Python,Data & Analytics,Intermediate,Bengaluru,23,700,15,4.6,21500,High
+F150,WordPress,Web Development,Expert,Mumbai,54,500,37,4.8,41500,Low

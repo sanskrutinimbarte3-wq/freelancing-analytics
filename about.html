@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Freelancing Analytics</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md app-nav">
+    <div class="container-xl">
+      <a class="navbar-brand" href="/"><i class="bi bi-bar-chart-line-fill"></i> Freelance Analytics</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="/explore">Skill Explorer</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/about">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container-xl py-4">
+    <h1 class="page-title">About the Project</h1>
+    <p class="text-muted">Computational Data Analytics project</p>
+
+    <div class="row g-3 mb-3">
+      <div class="col-lg-6"><div class="card p-3 h-100">
+        <h2 class="card-title">Problem Statement</h2>
+        <p class="mb-0">Freelancing has become an important source of income, but beginners often do not know which skills are in demand or which skills provide better earning opportunities.</p>
+      </div></div>
+      <div class="col-lg-6"><div class="card p-3 h-100">
+        <h2 class="card-title">Objective</h2>
+        <p class="mb-0">To analyze freelancing data and identify relationships between skills, demand, experience and income.</p>
+      </div></div>
+    </div>
+
+    <div class="row g-3 mb-3">
+      <div class="col-lg-6"><div class="card p-3 h-100">
+        <h2 class="card-title">Technologies</h2>
+        <div>
+          <span class="tech">Python</span><span class="tech">Flask</span><span class="tech">Pandas</span><span class="tech">NumPy</span>
+          <span class="tech">Scikit-learn</span><span class="tech">Chart.js</span><span class="tech">Bootstrap</span>
+        </div>
+      </div></div>
+      <div class="col-lg-6"><div class="card p-3 h-100">
+        <h2 class="card-title">Methodology</h2>
+        <div class="flow">
+          <span>Freelancing Dataset</span><i class="bi bi-arrow-right"></i><span>Data Preprocessing</span><i class="bi bi-arrow-right"></i>
+          <span>EDA</span><i class="bi bi-arrow-right"></i><span>Feature Engineering</span><i class="bi bi-arrow-right"></i>
+          <span>Data Visualization</span><i class="bi bi-arrow-right"></i><span>Linear Regression</span><i class="bi bi-arrow-right"></i>
+          <span>Income Prediction</span>
+        </div>
+      </div></div>
+    </div>
+
+    <!-- Preprocessing report -->
+    <div class="card p-3 mb-3">
+      <h2 class="card-title">Data Preprocessing Report</h2>
+      <div class="row g-3 text-center">
+        <div class="col-6 col-md-3"><div class="kpi-label">Rows loaded</div><div class="kpi-value">{{ prep.rows_before }}</div></div>
+        <div class="col-6 col-md-3"><div class="kpi-label">Missing values found</div><div class="kpi-value">{{ prep.missing_before }}</div></div>
+        <div class="col-6 col-md-3"><div class="kpi-label">Duplicates removed</div><div class="kpi-value">{{ prep.duplicates_removed }}</div></div>
+        <div class="col-6 col-md-3"><div class="kpi-label">Rows used</div><div class="kpi-value">{{ prep.rows_after }}</div></div>
+      </div>
+      <p class="chart-note mt-3 mb-0">Steps: remove duplicates, convert numeric columns, fill missing values (median for numbers, most common value for text), encode Experience and Demand as numbers, and create Weekly Income Estimate (Hourly Rate × Hours Per Week) and Annual Income (Monthly Income × 12).</p>
+    </div>
+
+    <!-- EDA -->
+    <div class="row g-3 mb-3">
+      <div class="col-lg-6"><div class="card p-3 h-100">
+        <h2 class="card-title">EDA: Univariate Summary</h2>
+        <div class="table-responsive"><table class="table table-sm align-middle mb-0">
+          <thead><tr><th>Column</th><th class="text-end">Mean</th><th class="text-end">Std</th><th class="text-end">Min</th><th class="text-end">Median</th><th class="text-end">Max</th></tr></thead>
+          <tbody>{% for r in desc %}
+            <tr><td>{{ r['index'].replace('_', ' ') }}</td><td class="text-end">{{ r['mean'] }}</td><td class="text-end">{{ r['std'] }}</td><td class="text-end">{{ r['min'] }}</td><td class="text-end">{{ r['50%'] }}</td><td class="text-end">{{ r['max'] }}</td></tr>
+          {% endfor %}</tbody>
+        </table></div>
+      </div></div>
+      <div class="col-lg-6"><div class="card p-3 h-100">
+        <h2 class="card-title">Linear Regression Model</h2>
+        <p class="mb-2">Target: <b>Monthly Income</b>. Split: {{ metrics.train_size }} training rows (80%), {{ metrics.test_size }} testing rows (20%).</p>
+        <div class="row text-center mb-2">
+          <div class="col-6"><div class="kpi-label">R² Score</div><div class="kpi-value">{{ metrics.r2 }}</div></div>
+          <div class="col-6"><div class="kpi-label">Mean Absolute Error</div><div class="kpi-value">₹{{ "{:,}".format(metrics.mae) }}</div></div>
+        </div>
+        <div class="small text-muted">Learned effect of each feature on income (coefficients):
+          {% for name, c in coefs %}<br>{{ name.replace('_', ' ') }}: <b>{{ c }}</b>{% endfor %}
+        </div>
+      </div></div>
+    </div>
+
+    <div class="card p-3 mb-3">
+      <h2 class="card-title">EDA: Correlation Between Numerical Variables</h2>
+      <p class="chart-note">Values close to 1 mean a strong positive relationship. Darker blue means stronger.</p>
+      <div class="table-responsive"><table class="table table-sm text-center align-middle mb-0">
+        <thead><tr><th></th>{% for c in corr_cols %}<th>{{ c.replace('_', ' ') }}</th>{% endfor %}</tr></thead>
+        <tbody>{% for row in corr %}
+          {% set i = loop.index0 %}
+          <tr><th class="text-start">{{ corr_cols[i].replace('_', ' ') }}</th>
+          {% for v in row %}<td style="background: rgba(79,70,229,{{ [v|abs, 1]|min * 0.55 }})">{{ v }}</td>{% endfor %}</tr>
+        {% endfor %}</tbody>
+      </table></div>
+    </div>
+
+    <div class="alert alert-light border">
+      <i class="bi bi-info-circle"></i> This project is for educational and analytical purposes. Income predictions are estimates and actual freelancing income may vary.
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
